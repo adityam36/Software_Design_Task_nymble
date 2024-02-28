@@ -1,0 +1,48 @@
+TravelPackage: Represents a travel package with a name, passenger capacity, itinerary, and list of passengers.
+Destination: Represents a destination with a name and a list of activities available at that destination.
+Activity: Represents an activity with a name, description, cost, and capacity.
+Passenger: Represents a passenger with a name, passenger number, and passenger type (standard, gold, premium).
+
+
+
+
+import java.util.List;
+
+public class TravelPackage {
+    private String name;
+    private int capacity;
+    private List<Destination> itinerary;
+    private List<Passenger> passengers;
+
+    // Constructor, getters, setters, and methods
+}
+
+public class Destination {
+    private String name;
+    private List<Activity> activities;
+
+    // Constructor, getters, setters, and methods
+}
+
+public class Activity {
+    private String name;
+    private String description;
+    private double cost;
+    private int capacity;
+    private Destination destination;
+
+    // Constructor, getters, setters, and methods
+}
+
+public class Passenger {
+    private String name;
+    private int passengerNumber;
+    private PassengerType type;
+    private double balance;
+
+    // Constructor, getters, setters, and methods
+}
+
+public enum PassengerType {
+    STANDARD, GOLD, PREMIUM
+}

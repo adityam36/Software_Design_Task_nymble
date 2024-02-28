@@ -1,0 +1,24 @@
+import java.util.List;
+
+public class TravelPackage {
+    private String name;
+    private int capacity;
+    private List<Destination> itinerary;
+    private List<Passenger> passengers;
+
+    // Constructor, getters, setters, and methods
+
+    /**
+     * Prints the itinerary of the travel package.
+     */
+    public void printItinerary() {
+        // Implementation
+    }
+
+    /**
+     * Prints the passenger list of the travel package.
+     */
+    public void printPassengerList() {
+        // Implementation
+    }
+}

@@ -1,0 +1,25 @@
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+public class TravelPackageTest {
+    
+    @Test
+    public void testAddPassenger() {
+        // Test implementation
+    }
+
+    @Test
+    public void testRemovePassenger() {
+        // Test implementation
+    }
+
+    @Test
+    public void testPrintItinerary() {
+        // Test implementation
+    }
+
+    @Test
+    public void testPrintPassengerList() {
+        // Test implementation
+    }
+}
